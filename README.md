@@ -1,4 +1,6 @@
 # ESP32-S3 Flight Controller Board
+![Board Render](Images/Front.png)
+
 
 A custom-designed flight controller based on the ESP32-S3 module, built for compatibility with the **esp-fc** firmware and **Betaflight-like** configuration.  
 This board integrates essential flight-control sensors, power-management circuitry, and expansion interfaces, making it suitable for quadcopters, robotics, and experimental UAV platforms.
