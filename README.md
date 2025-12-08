@@ -41,13 +41,10 @@ This board integrates essential flight-control sensors, power-management circuit
 ESP32-FC-Board/
 │
 ├── README.md              # Project documentation
-├── LICENSE                # MIT or Apache license recommended
-│
+├── LICENSE                # Apache license recommended
 ├── Hardware/
-│   └── Gerber/            # Gerber files for PCB manufacturing
-│
+|___Gerber/                # Gerber files for PCB manufacturing
 ├── 3DModels/              # STEP/WRL models (optional)
-│
 └── Images/                # Photos, renders, pinout diagrams
 
 ```
