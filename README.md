@@ -24,7 +24,7 @@ This board integrates essential flight-control sensors, power-management circuit
 ### **Motor & IO Support**
 - **4-Motor outputs** (quad-rotor configuration)  
 - Dedicated timer pins compatible with `esp-fc` firmware  
-- JST-SPI connector for user-defined expansion modules
+- JST-I2C connector for user-defined expansion modules
 
 ### **Firmware Compatibility**
 - Fully compatible with  
@@ -66,7 +66,7 @@ ESP32-FC-Board/
 
 ### **Connectors**
 - Motor outputs (4x)
-- SPI JST connector for add-on modules
+- I2C JST connector for add-on modules
 - Debug pads (TX/RX/5V/GND)
 
 ---
