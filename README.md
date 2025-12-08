@@ -109,11 +109,7 @@ These files can be uploaded to any PCB manufacturer such as JLCPCB, PCBWay, or O
 
 Board renders, real PCB photos, and pin-mapping diagrams are available in:
 
-```
-
-Images/
-
-```
+[Images](Images)
 
 ---
 
@@ -134,4 +130,3 @@ Feel free to open issues or pull requests.
 ## 📧 Contact
 
 For questions, improvements, or collaboration ideas, open an Issue or contact the project maintainer.
-```
