@@ -1,0 +1,59 @@
+ERC report (2025-12-05T19:37:23+0530, Encoding UTF8)
+
+***** Sheet /
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(1800 mils, 3600 mils): Symbol #PWR01 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(4100 mils, 2400 mils): Symbol #PWR09 Pin 1 [Power input, Line]
+[no_connect_connected]: A pin with a “no connection” flag is connected
+    ; warning
+    @(6950 mils, 1100 mils): Symbol #PWR02 Pin 1 [Power input, Line]
+    @(7050 mils, 1100 mils): No Connect
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6100 mils, 3900 mils): Symbol U5 Pin 5 [BAT, Power output, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(9400 mils, 1250 mils): Symbol U6 Pin 5 [VCC, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(9400 mils, 1450 mils): Symbol U6 Pin 6 [GND, Power input, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'FS8205A'.
+    ; warning
+    @(9750 mils, 2000 mils): Symbol Q1 [FS8205A]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(9450 mils, 3900 mils): Symbol U3 Pin 5 [IN, Power input, Line]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(11150 mils, 3000 mils): Vertical Wire, length 50 mils
+[wire_dangling]: Wires not connected to anything
+    ; error
+    @(11150 mils, 3000 mils): Vertical Wire, length 50 mils
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(11150 mils, 3000 mils): Vertical Wire, length 50 mils
+[footprint_link_issues]: The current configuration does not include the footprint library 'PRESSURE-BMP180_LGA7_'.
+    ; warning
+    @(2200 mils, 1350 mils): Symbol U8 [PRESSURE-BMP180_LGA7_]
+[lib_symbol_mismatch]: Symbol 'PRESSURE-BMP180_LGA7_' doesn't match copy in library 'PRESSURE-BMP180_LGA7_'
+    ; warning
+    @(2200 mils, 1350 mils): Symbol U8 [PRESSURE-BMP180_LGA7_]
+
+***** Sheet /Other Pheripherals/
+[multiple_net_names]: Both SCL and GND are attached to the same items; SCL will be used in the netlist
+    ; warning
+    @(1800 mils, 1450 mils): Global Label 'SCL'
+    @(1650 mils, 1650 mils): Symbol #PWR032 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(2050 mils, 1150 mils): Symbol U8 Pin 2 [VDD, Bidirectional, Line]
+    @(10200 mils, 5650 mils): Symbol U2 Pin 2 [VO, Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(2050 mils, 1250 mils): Symbol U8 Pin 3 [VDDIO, Bidirectional, Line]
+    @(10200 mils, 5650 mils): Symbol U2 Pin 2 [VO, Power output, Line]
+
+ ** ERC messages: 16  Errors 7  Warnings 9
